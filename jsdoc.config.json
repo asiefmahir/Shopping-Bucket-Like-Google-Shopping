@@ -1,0 +1,14 @@
+{
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": ["jsdoc", "closure"]
+  },
+  "plugins": [
+        "plugins/markdown", 
+        "node_modules/better-docs/category", 
+        "node_modules/better-docs/component"],
+  "opts": {
+    "readme": "README.md",
+    "template": "node_modules/better-docs"
+  }
+}
