@@ -31,7 +31,7 @@ const BucketList = () => {
 
 	return (
 		<>
-			<Nav brandLogo={brand.brandLogo} name='Stack Bucket' />
+			<Nav brandLogo={brand.brandLogo} name='Shopping Bucket' />
 			<main className='container __margin--ylg'>
 				{isRehydrated ? (
 					<>
